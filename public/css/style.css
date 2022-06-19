@@ -501,7 +501,7 @@ body {
 
 .section-title {
     color: #354C53;
-    ;
+    letter-spacing: 2px;
     font-family: 'Brother 1816 Printed', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     margin-top: 0;
@@ -519,7 +519,7 @@ body {
 }
 
 /* Team */
-.section-content-team {
+.section-content-team, .section-content-gallery {
     width: auto;
     overflow: auto;
     padding: 10px;
@@ -554,6 +554,14 @@ body {
 
 .section-content-team-person-bio {
     margin-bottom: 1em;
+}
+
+/* Artworks gallery */
+.section-content-gallery-item {
+    width: 400px;
+    height: 400px;
+    background: #354C53;
+    margin-right: 60px;
 }
 
 /* ----- Footer ----- */
