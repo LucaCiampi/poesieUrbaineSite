@@ -489,7 +489,8 @@ template {
 
 
 /* ----- Content ----- */
-html, body {
+html,
+body {
     overflow-x: hidden;
 }
 
@@ -499,7 +500,8 @@ html, body {
 }
 
 .section-title {
-    color: #354C53;;
+    color: #354C53;
+    ;
     font-family: 'Brother 1816 Printed', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-transform: uppercase;
     margin-top: 0;
@@ -511,7 +513,8 @@ html, body {
     background: #354C53;
 }
 
-.section-intro, .section-intro .section-title {
+.section-intro,
+.section-intro .section-title {
     color: #f9f9f9;
 }
 
@@ -531,7 +534,14 @@ html, body {
 .section-content-team-person-photo {
     height: 400px;
     width: 400px;
-    background: #354C53;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.section-content-team-person-photo img {
+    height: 100%;
+    width: auto;
+    margin: auto;
 }
 
 .section-content-team-person-text {
