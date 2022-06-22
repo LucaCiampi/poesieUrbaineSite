@@ -12,14 +12,15 @@
 <body>
     <section class="section section-intro">
         <div class="section-inner">
-            <h1 class="section-title">Poésie Urbaine</h1>
+            <video src="./public/images/motion.MP4" class="intro-motion" autoplay loop muted></video>
+            <!-- <h1 class="section-title">Poésie Urbaine</h1>
             <div class="section-content-pitch">
                 Poésie urbaine c'est un Annecy sous les eaux,<br />
                 c'est l'amour des habitants pour la ville d'Annecy,<br />
                 c'est une architecture enchevêtrée et improbable.<br />
                 Plongez dans une histoire remplie de péripéties et d'émerveillement<br />
                 Rassemblez vos affaires et envolez-vous !
-            </div>
+            </div> -->
         </div>
         </div>
     </section>
@@ -162,7 +163,8 @@
                 <div class="section-content">
                     <div class="flex section-inner-row--school-row v-center">
                         <div class="col-70 team-school-imgCol centered">
-                            <img src="./public/images/papeteries.jpg" alt="GOBELINS, l'école de l'image" class="team-school-img">
+                            <img src="./public/images/papeteries.jpg" alt="GOBELINS, l'école de l'image"
+                                class="team-school-img">
                         </div>
                         <div class="col-30 p-20">
                             L'équipe pédagogique de l'école GOBELINS Annecy nous a accompagné tout au long de ce projet.
@@ -173,18 +175,34 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="section where">
         <div class="section-inner">
             <div class="section-chapter"><img class="section-chapter-img"" src=" ./public/images/ou.png" alt="Où ?">
             </div>
             <h2 class="section-title">Un lieu unique</h2>
             <div class="section-content">
-                <h3>Plongez dans un univers fantastique !</h3>
-                <div>
-                    <div>Du 01/07/22 au 25/09/22</div>
-                    <div>Tous les jours</div>
-                    <div>Gratuit</div>
-                    <div>* N'oubliez pas votre téléphone</div>
+                <div class="flex row vue">
+                    <div class="col-70">
+                        <img src="./public/images/vue.jpg" alt="La vue" class="where-vue-img">
+                    </div>
+                    <div class="col-30">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni nobis culpa tempore, tempora ea
+                        commodi rerum maxime, laborum, quo mollitia facere quaerat porro saepe vitae quis laboriosam
+                        unde eaque cupiditate?
+                    </div>
+                </div>
+                <div class="flex row map">
+                    <div class="col-30"></div>
+                    <div class="col-70">
+                        <img src="./public/images/map.jpg" alt="La vue" class="where-vue-img">
+                        <h3>Plongez dans un univers fantastique !</h3>
+                        <div>
+                            <div>Du 01/07/22 au 25/09/22</div>
+                            <div>Tous les jours</div>
+                            <div>Gratuit</div>
+                            <div>* N'oubliez pas votre téléphone</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -235,25 +253,34 @@
     </section>
 
     <footer class="footer">
-        <div class="column">
-            <div class="logo"></div>
-            <div>Envolez-vous</div>
-        </div>
-        <div class="column">
+        <div class="footer-inner flex space-between">
             <div class="column">
-                <h6 class="footer-title">Autres oeuvres</h6>
-                <div>
-                    <a href="#">Souche de vie</a>
-                    <a href="#">Le coeur d'Annecy</a>
-                    <a href="#">Le France</a>
+                <div class="footer-logo"><img src="./public/images/logo.svg" alt="Poésie Urbaine logo"></div>
+                <div>Envolez-vous !</div>
+            </div>
+            <div class="footer-middleElements flex">
+                <div class="column footer-autresOeuvres">
+                    <h6 class="footer-title">Autres oeuvres</h6>
+                    <ul>
+                        <li><a href="#">Souche de vie</a></li>
+                        <li><a href="#">Le coeur d'Annecy</a></li>
+                        <li><a href="#">Le France</a></li>
+                    </ul>
+                </div>
+                <div class="column">
+                    <h6 class="footer-title">Annecy paysages</h6>
+                    <ul>
+                        <li><a href="#">Le festival</a></li>
+                        <li><a href="#">Les oeuvres</a></li>
+                    </ul>
                 </div>
             </div>
             <div class="column">
                 <h6 class="footer-title">Annecy paysages</h6>
-                <div>
-                    <a href="#">Le festival</a>
-                    <a href="#">Les oeuvres</a>
-                </div>
+                <ul>
+                    <li><a href="#">Le festival</a></li>
+                    <li><a href="#">Les oeuvres</a></li>
+                </ul>
             </div>
         </div>
     </footer>
