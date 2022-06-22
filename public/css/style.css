@@ -448,6 +448,40 @@ template {
   display: inline-block;
 }
 
+.centered {
+  text-align: center;
+}
+
+.col-70, .col-30 {
+  flex-grow: 1;
+}
+
+.col-70 {
+  width: 70%;
+}
+
+.col-30 {
+  width: 30%;
+}
+
+.px-20 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.py-20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.p-20, .px-20, .py-20 {
+  box-sizing: border-box;
+}
+
 /* Alignement vertical au milieu */
 .v-center {
   -webkit-box-align: center;
@@ -511,7 +545,7 @@ body {
 }
 
 .section {
-  font-family: "DIN 2014", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "DIN 2014 Light", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
   width: 100%;
   background-color: #FEEAD3;
@@ -536,9 +570,10 @@ body {
 }
 
 .section-title {
+  z-index: 10;
   color: #354c53;
   letter-spacing: 2px;
-  font-family: "Brother 1816 Printed", "Segoe UI", Tahoma, Geneva, Verdana,
+  font-family: "Brother 1816 Black", "Segoe UI", Tahoma, Geneva, Verdana,
     sans-serif;
   text-transform: uppercase;
   margin-top: 0;
@@ -601,6 +636,10 @@ body {
 }
 
 /* Team */
+.section-inner-row--team {
+  margin-bottom: 100px;
+}
+
 .section-content-team,
 .section-content-gallery {
   width: auto;
@@ -640,6 +679,33 @@ body {
   margin-bottom: 1em;
 }
 
+.section-inner-row--school-row {
+  margin-top: 80px;
+}
+
+.team-school-imgCol {
+  position: relative;
+  padding: 80px 0 40px 0;
+}
+
+.team-school-img {
+  z-index: 2;
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.team-school-imgCol::before {
+  position: absolute;
+  content: '';
+  background: url('../images/papeteries-bordure.svg') no-repeat;
+  background-size: cover;
+  left: 0;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+
 /* Artworks gallery */
 .section-content-gallery-item {
   width: 400px;
@@ -652,7 +718,7 @@ body {
 .footer {
     background: #354C53;
     color: #FEEAD3;
-    font-family: 'DIN 2014', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'DIN 2014 Light', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer-title {
