@@ -589,7 +589,7 @@ body {
   box-sizing: border-box;
   width: 100%;
   padding: 40px 0;
-  background-color: #FEEAD3;
+  background-color: #FFFDF8;
 }
 
 .section.coloredBackground {
@@ -772,6 +772,11 @@ body {
   margin-top: -100px;
 }
 
+/* CTA */
+.section.cta {
+  background: #F3A262;
+}
+
 /* Artworks gallery */
 .section-content-gallery-item {
   width: 400px;
@@ -823,7 +828,7 @@ body {
 .footer-inner {
   width: 80%;
   margin: auto;
-  padding: 40px 0;
+  padding: 60px 0 80px 0;
 }
 
 .footer-title {
@@ -875,6 +880,20 @@ body {
   .col-30,
   .col-20 {
     width: auto;
+  }
+
+  .section-inner {
+    width: 85%;
+  }
+
+  .section-title::after {
+    height: 20px;
+    width: 330px;
+    left: -20px;
+  }
+
+  .map.row {
+    margin-top: 0;
   }
 }
 
