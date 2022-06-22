@@ -452,13 +452,30 @@ template {
   text-align: center;
 }
 
+.col-80,
 .col-70,
-.col-30 {
+.col-60,
+.col-50,
+.col-40,
+.col-30,
+.col-20 {
   flex-grow: 1;
 }
 
 .col-70 {
   width: 70%;
+}
+
+.col-60 {
+  width: 60%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-40 {
+  width: 40%;
 }
 
 .col-30 {
@@ -558,12 +575,14 @@ a {
 html,
 body {
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .section {
   font-family: "DIN 2014 Light", Tahoma, Geneva, Verdana, sans-serif;
-  padding: 40px;
+  box-sizing: border-box;
   width: 100%;
+  padding: 40px 0;
   background-color: #FEEAD3;
 }
 
@@ -759,6 +778,39 @@ body {
   margin-right: 60px;
 }
 
+/* Autres oeuvres */
+.autresOeuvres-text {
+  position: relative;
+  padding-bottom: 80px;
+  margin-bottom: 20px;
+}
+
+.autresOeuvres-text-currentSlide {
+  color: #354C53;
+  font-family: "DIN 2014 Light", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.autresOeuvres-text-arrows {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
+
+.autresOeuvres-text-arrows-left {
+  margin-right: 60px;
+}
+
+.autresOeuvres-text-arrows-left,
+.autresOeuvres-text-arrows-right {
+  cursor: pointer;
+  height: 100%;
+}
+
 /* ----- Footer ----- */
 .footer {
   background: #354C53;
@@ -811,6 +863,16 @@ body {
     -webkit-box-direction: reverse !important;
     -ms-flex-direction: column-reverse !important;
     flex-direction: column-reverse !important;
+  }
+
+  .col-80,
+  .col-70,
+  .col-60,
+  .col-50,
+  .col-40,
+  .col-30,
+  .col-20 {
+    width: auto;
   }
 }
 
