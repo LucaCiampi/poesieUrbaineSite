@@ -485,6 +485,10 @@ template {
   font-size: 0.8em !important;
 }
 
+.txt-white {
+  color: #DDDDDD;
+}
+
 /* Fonts */
 @font-face {
   font-family: "Brother 1816 Black";
@@ -509,11 +513,26 @@ body {
 .section {
   font-family: "DIN 2014", Tahoma, Geneva, Verdana, sans-serif;
   padding: 40px;
+  width: 100%;
+  background-color: #FEEAD3;
 }
 
 .section.coloredBackground {
     background: #354C53;
     color: #DDDDDD;
+}
+
+.section-inner {
+  width: 80%;
+  margin: auto;
+}
+
+.section-chapter-img {
+  height: 2rem;
+}
+
+.section.coloredBackground .section-title {
+  color: #DDDDDD;
 }
 
 .section-title {
@@ -523,6 +542,20 @@ body {
     sans-serif;
   text-transform: uppercase;
   margin-top: 0;
+  position: relative;
+  margin-bottom: 50px;
+  font-size: 3rem;
+}
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: -40px;
+  left: -80px;
+  width: 300px;
+  height: 20px;
+  background: url('../images/trait.png') no-repeat;
+  background-size: cover;
 }
 
 /* Intro */
