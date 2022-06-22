@@ -499,6 +499,11 @@ body {
     padding: 40px;
 }
 
+.section.coloredBackground {
+    background: #354C53;
+    color: #DDDDDD;
+}
+
 .section-title {
     color: #354C53;
     letter-spacing: 2px;
@@ -529,6 +534,7 @@ body {
     color: #1F1F1F;
     border: solid 1px #354C53;
     margin-right: 60px;
+    background: #FFFDF8;
 }
 
 .section-content-team-person-photo {
@@ -565,7 +571,15 @@ body {
 }
 
 /* ----- Footer ----- */
+.footer {
+    background: #354C53;
+    color: #FEEAD3;
+    font-family: 'DIN 2014', Tahoma, Geneva, Verdana, sans-serif;
+}
 
+.footer-title {
+    font-family: 'DM Sans', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 /* ----- Mobile ----- */
 /* Tablette */
