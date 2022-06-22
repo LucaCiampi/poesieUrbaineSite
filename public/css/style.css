@@ -564,10 +564,17 @@ a {
 
 /* Fonts */
 @font-face {
-  font-family: "Brother 1816 Black";
+  font-family: "Brother 1816 Printed Bold";
   src: url("../fonts/Brother_1816/Black/Brother-1816-Black.eot") format("eot"),
     url("../fonts/Brother_1816/Black/Brother-1816-Black.ttf") format("ttf"),
     url("../fonts/Brother_1816/Black/Brother-1816-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Brother 1816 Printed Bold";
+  src: url("../fonts/Brother_1816/PrintedBold/Brother1816Printed-Bold.eot") format("eot"),
+    url("../fonts/Brother_1816/PrintedBold/Brother1816Printed-Bold.ttf") format("ttf"),
+    url("../fonts/Brother_1816/PrintedBold/Brother1816Printed-Bold.woff") format("woff");
 }
 
 @font-face {
@@ -607,6 +614,7 @@ body {
 
 .section-chapter-img {
   height: 2rem;
+  margin-bottom: 2em;
 }
 
 .section.coloredBackground .section-title {
@@ -617,7 +625,7 @@ body {
   z-index: 10;
   color: #354c53;
   letter-spacing: 2px;
-  font-family: "Brother 1816 Black", "Segoe UI", Tahoma, Geneva, Verdana,
+  font-family: "Brother 1816 Printed Bold", "Segoe UI", Tahoma, Geneva, Verdana,
     sans-serif;
   text-transform: uppercase;
   margin-top: 0;
@@ -675,7 +683,7 @@ body {
   margin: 0;
   color: #354c53;
   font-size: 90px;
-  font-family: "Brother 1816 Black", sans-serif;
+  font-family: "Brother 1816 Printed Bold", sans-serif;
 }
 
 .text-number {
