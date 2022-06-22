@@ -495,7 +495,7 @@ template {
 
 @font-face {
   font-family: "DIN 2014 Light";
-  src: url("../fonts/DIN_2014/Light/DIN2014-Light.ttf") format("ttf");
+  src: url("../fonts/DIN_2014/Light/DIN2014-Light.ttf");
 }
 
 /* ----- Header ----- */
@@ -548,6 +548,18 @@ body {
   color: black;
   font-size: 20px;
   font-family: "DIN 2014 Light", sans-serif;
+  position: relative;
+  left: 25px;
+}
+
+.text-number::before {
+  content: "";
+  border: 1px solid rgba(53, 76, 83, 0.56);
+  height: 30px;
+  width: 70px;
+  position: absolute;
+  left: -25px;
+  top: 4.5px;
 }
 
 /* Team */
