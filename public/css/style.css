@@ -628,7 +628,7 @@ body {
 .section-title {
   z-index: 10;
   color: #354c53;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   font-family: "Brother 1816 Printed Bold", "Segoe UI", Tahoma, Geneva, Verdana,
     sans-serif;
   text-transform: uppercase;
