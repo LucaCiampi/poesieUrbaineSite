@@ -752,6 +752,38 @@ body {
   margin-right: 20%;
 }
 
+/* Comment ? */
+.img-how {
+  width: 65%;
+  z-index: 2;
+  position: relative;
+  margin: auto;
+}
+
+.img-how-below {
+  position: absolute;
+  left: 30%;
+  top: 30%;
+  right: 0%;
+  bottom: 0%;
+}
+
+.how-img-content {
+  position: relative;
+  padding: 5% 0 30% 0;
+}
+
+.how-img-content::before {
+  position: absolute;
+  content: "";
+  background: url("../images/backgroug-img-how.svg") no-repeat;
+  background-size: cover;
+  left: -5%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+}
+
 /* Team */
 .section-inner-row--team {
   margin-bottom: 100px;
