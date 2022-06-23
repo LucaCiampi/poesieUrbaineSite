@@ -546,7 +546,7 @@ img {
 }
 
 .txt-white {
-  color: #DDDDDD;
+  color: #dddddd;
 }
 
 ul,
@@ -572,9 +572,12 @@ a {
 
 @font-face {
   font-family: "Brother 1816 Printed Bold";
-  src: url("../fonts/Brother_1816/PrintedBold/Brother1816Printed-Bold.eot") format("eot"),
-    url("../fonts/Brother_1816/PrintedBold/Brother1816Printed-Bold.ttf") format("ttf"),
-    url("../fonts/Brother_1816/PrintedBold/Brother1816Printed-Bold.woff") format("woff");
+  src: url("../fonts/Brother_1816/PrintedBold/Brother1816Printed-Bold.eot")
+      format("eot"),
+    url("../fonts/Brother_1816/PrintedBold/Brother1816Printed-Bold.ttf")
+      format("ttf"),
+    url("../fonts/Brother_1816/PrintedBold/Brother1816Printed-Bold.woff")
+      format("woff");
 }
 
 @font-face {
@@ -596,15 +599,15 @@ body {
   box-sizing: border-box;
   width: 100%;
   padding: 40px 0;
-  background-color: #FFFDF8;
+  background-color: #fffdf8;
 }
 
 .section.coloredBackground {
-  background: #354C53;
+  background: #354c53;
 }
 
 .section.coloredBackground .section-content {
-  color: #DDDDDD;
+  color: #dddddd;
 }
 
 .section-inner {
@@ -618,7 +621,7 @@ body {
 }
 
 .section.coloredBackground .section-title {
-  color: #DDDDDD;
+  color: #dddddd;
 }
 
 .section-title {
@@ -635,20 +638,39 @@ body {
 }
 
 .section-title::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: -40px;
   left: -40px;
   width: 500px;
   height: 30px;
-  background: url('../images/trait.png') no-repeat;
+  background: url("../images/trait.png") no-repeat;
   background-size: cover;
 }
 
 .section-content {
-  color: #354C53;
+  color: #354c53;
 }
 
+/* Ligne séparatrice */
+.dividing-line {
+  background-color: #fffdf8;
+}
+
+.line {
+  margin: 5% 0;
+  background-color: #354c53;
+  width: 50%;
+  height: 3.5px;
+}
+
+.line.left {
+  transform: rotate(-2.6deg);
+}
+
+.line.right {
+  transform: rotate(2.6deg);
+}
 /* Intro */
 .section-intro {
   min-height: 70vh;
@@ -674,11 +696,6 @@ body {
 }
 
 /* Menu */
-.section-menu {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-}
-
 .number {
   margin: 0;
   color: #354c53;
@@ -704,6 +721,24 @@ body {
   top: 4.5px;
 }
 
+/* Quoi */
+.img-view {
+  width: 100%;
+}
+
+.all-text-content-section-what {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.text-content-section-what {
+  width: 50%;
+}
+
+.text-left-section-what {
+  margin-right: 20%;
+}
+
 /* Team */
 .section-inner-row--team {
   margin-bottom: 100px;
@@ -717,10 +752,10 @@ body {
 }
 
 .section-content-team-person {
-  color: #1F1F1F;
-  border: solid 1px #354C53;
+  color: #1f1f1f;
+  border: solid 1px #354c53;
   margin-right: 60px;
-  background: #FFFDF8;
+  background: #fffdf8;
 }
 
 .section-content-team-person-photo {
@@ -766,8 +801,8 @@ body {
 
 .team-school-imgCol::before {
   position: absolute;
-  content: '';
-  background: url('../images/papeteries-bordure.svg') no-repeat;
+  content: "";
+  background: url("../images/papeteries-bordure.svg") no-repeat;
   background-size: cover;
   left: 0;
   top: 0%;
@@ -782,7 +817,7 @@ body {
 
 /* CTA */
 .section.cta {
-  background: #F3A262;
+  background: #f3a262;
 }
 
 /* Artworks gallery */
@@ -801,7 +836,7 @@ body {
 }
 
 .autresOeuvres-text-currentSlide {
-  color: #354C53;
+  color: #354c53;
   font-family: "DIN 2014 Light", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 30px;
   font-weight: 700;
@@ -828,9 +863,9 @@ body {
 
 /* ----- Footer ----- */
 .footer {
-  background: #354C53;
-  color: #FEEAD3;
-  font-family: 'DIN 2014 Light', Tahoma, Geneva, Verdana, sans-serif;
+  background: #354c53;
+  color: #feead3;
+  font-family: "DIN 2014 Light", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .footer-inner {
@@ -845,7 +880,7 @@ body {
 }
 
 .footer-title {
-  font-family: 'DIN 2014 Light', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "DIN 2014 Light", Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 600;
   font-size: 24px;
   padding: 0 0 1em 0;
@@ -866,7 +901,8 @@ body {
 
 /* ----- Mobile ----- */
 /* Tablette */
-@media (max-width: 980px) {}
+@media (max-width: 980px) {
+}
 
 /* Téléphone */
 @media (max-width: 767px) {
@@ -899,6 +935,10 @@ body {
     width: 85%;
   }
 
+  .section-title {
+    font-size: 2em;
+  }
+
   .section-title::after {
     height: 20px;
     width: 330px;
@@ -908,7 +948,31 @@ body {
   .map.row {
     margin-top: 0;
   }
+
+  .display-none-mobile {
+    display: none !important;
+  }
+
+  .text-content-section-what {
+    width: 100%;
+  }
+
+  .text-left-section-what {
+    margin: 0;
+  }
+
+  .img-view {
+    max-width: 150%;
+    width: 120%;
+    left: -9%;
+    position: relative;
+  }
+
+  .line {
+    width: 85%;
+  }
 }
 
 /* Téléphone petit */
-@media (max-width: 479px) {}
+@media (max-width: 479px) {
+}
