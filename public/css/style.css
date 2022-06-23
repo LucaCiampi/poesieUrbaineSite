@@ -739,16 +739,16 @@ body {
   width: 100%;
 }
 
-.all-text-content-section-what {
+.all-text-content-section {
   width: 100%;
   margin-top: 2%;
 }
 
-.text-content-section-what {
+.text-content-section {
   width: 50%;
 }
 
-.text-left-section-what {
+.text-left-section {
   margin-right: 20%;
 }
 
@@ -966,11 +966,11 @@ body {
     display: none !important;
   }
 
-  .text-content-section-what {
+  .text-content-section {
     width: 100%;
   }
 
-  .text-left-section-what {
+  .text-left-section {
     margin: 0;
   }
 
