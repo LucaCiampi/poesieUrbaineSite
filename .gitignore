@@ -350,3 +350,4 @@ MigrationBackup/
 .ionide/
 public/images/motion.MP4
 public/images/.DS_Store
+.DS_Store
