@@ -589,6 +589,7 @@ html,
 body {
   overflow-x: hidden;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .section {
@@ -651,7 +652,7 @@ body {
 
 /* Intro */
 .section-intro {
-  min-height: 70vh;
+  height: 100vh;
   background: #354c53;
   position: relative;
 }
@@ -671,6 +672,18 @@ body {
   top: 0;
   bottom: 0;
   z-index: 1;
+}
+
+.intro-arrowContainer {
+  z-index: 10;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.intro-arrow {
+  transform: rotate(90deg);
 }
 
 /* Menu */
@@ -782,7 +795,7 @@ body {
 
 /* CTA */
 .section.cta {
-  background: #F3A262;
+  /* background: #F3A262; */
 }
 
 /* Artworks gallery */
