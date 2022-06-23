@@ -754,7 +754,7 @@ body {
 
 /* Comment ? */
 .img-how {
-  width: 65%;
+  /* width: 65%; */
   z-index: 2;
   position: relative;
   margin: auto;
@@ -770,7 +770,7 @@ body {
 
 .how-img-content {
   position: relative;
-  padding: 5% 0 30% 0;
+  padding: 5%;
 }
 
 .how-img-content::before {
@@ -778,7 +778,7 @@ body {
   content: "";
   background: url("../images/backgroug-img-how.svg") no-repeat;
   background-size: cover;
-  left: -5%;
+  left: 0%;
   top: 0%;
   right: 0%;
   bottom: 0%;
