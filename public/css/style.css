@@ -862,7 +862,44 @@ body {
 
 /* CTA */
 .section.cta {
-  /* background: #F3A262; */
+  background: url(../images/dividerOrange.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-bg-orange {
+  z-index: 10;
+  color: #354c53;
+  /* letter-spacing: 2px; */
+  font-family: "Brother 1816 Printed Bold", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  text-transform: uppercase;
+  margin-top: 0;
+  position: relative;
+  font-size: 3rem;
+  margin-top: 5%;
+}
+
+.bg-orange {
+  background-color: #f3a262;
+  margin: 0;
+}
+
+.cta-content {
+  z-index: 10;
+}
+
+.cta-text {
+  width: 435px;
+}
+
+.btn-store {
+  margin-top: 5%;
+}
+
+.btn-image-store {
+  width: 200px;
+  margin-right: 20px;
 }
 
 /* Artworks gallery */
@@ -980,7 +1017,8 @@ body {
     width: 85%;
   }
 
-  .section-title {
+  .section-title,
+  .title-bg-orange {
     font-size: 2em;
   }
 
@@ -1015,6 +1053,14 @@ body {
 
   .line {
     width: 85%;
+  }
+
+  .cta-text {
+    width: 85%;
+  }
+
+  .btn-image {
+    width: 50%;
   }
 }
 
