@@ -898,6 +898,12 @@ body {
   margin-bottom: 20px;
 }
 
+.autresOeuvres-text-title {
+  font-size: 20px;
+  color: #354C53;
+  font-weight: 600;
+}
+
 .autresOeuvres-text-currentSlide {
   color: #354c53;
   font-family: "DIN 2014 Light", Tahoma, Geneva, Verdana, sans-serif;
