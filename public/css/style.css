@@ -962,6 +962,10 @@ body {
   margin-right: 60px;
 }
 
+.footer-column.vivezlExperience li {
+  margin-bottom: 20px;
+}
+
 /* ----- Mobile ----- */
 /* Tablette */
 @media (max-width: 980px) {
