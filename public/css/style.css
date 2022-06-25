@@ -873,6 +873,11 @@ body {
   z-index: -1;
 }
 
+.section-cta-content-getItOn {
+  margin-top: 40px;
+  /* margin-bottom: 40px; */
+}
+
 .cta-section-inner-gplay {
   margin-right: 20px;
 }
