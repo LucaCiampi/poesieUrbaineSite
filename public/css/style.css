@@ -937,9 +937,9 @@ body {
   padding: 60px 0 80px 0;
 }
 
-.footer-column {
+.footer-column, .footer-autresOeuvres {
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .footer-title {
