@@ -878,11 +878,12 @@ body {
 }
 
 /* Artworks gallery */
+.section-content-gallery * {
+  margin: auto;
+}
+
 .section-content-gallery-item {
-  width: 400px;
-  height: 400px;
-  background: #354c53;
-  margin-right: 60px;
+  margin-bottom: 20px;
 }
 
 /* Autres oeuvres */
