@@ -862,7 +862,19 @@ body {
 
 /* CTA */
 .section.cta {
-  /* background: #F3A262; */
+  background-color: #F3A262;
+  background-image: url('../images/dividerOrange.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.section-cta-background {
+  z-index: -1;
+}
+
+.cta-section-inner-gplay {
+  margin-right: 20px;
 }
 
 /* Artworks gallery */
