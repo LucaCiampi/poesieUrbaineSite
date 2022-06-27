@@ -731,6 +731,7 @@ body {
 .text-number::before {
   content: "";
   border: 1px solid rgba(53, 76, 83, 0.56);
+  background: #354c5311;
   height: 30px;
   width: 70px;
   position: absolute;
