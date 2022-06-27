@@ -754,7 +754,7 @@ body {
 
 /* Comment ? */
 .img-how {
-  width: 65%;
+  /* width: 65%; */
   z-index: 2;
   position: relative;
   margin: auto;
@@ -770,7 +770,7 @@ body {
 
 .how-img-content {
   position: relative;
-  padding: 5% 0 30% 0;
+  padding: 5%;
 }
 
 .how-img-content::before {
@@ -778,7 +778,7 @@ body {
   content: "";
   background: url("../images/backgroug-img-how.svg") no-repeat;
   background-size: cover;
-  left: -5%;
+  left: 0%;
   top: 0%;
   right: 0%;
   bottom: 0%;
@@ -861,9 +861,52 @@ body {
 }
 
 /* CTA */
+
+/* CTA */
 .section.cta {
-  background-color: #F3A262;
-  background-image: url('../images/dividerOrange.svg');
+  background: url(../images/dividerOrange.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title-bg-orange {
+  z-index: 10;
+  color: #354c53;
+  /* letter-spacing: 2px; */
+  font-family: "Brother 1816 Printed Bold", "Segoe UI", Tahoma, Geneva, Verdana,
+    sans-serif;
+  text-transform: uppercase;
+  margin-top: 0;
+  position: relative;
+  font-size: 3rem;
+  margin-top: 5%;
+}
+
+.bg-orange {
+  background-color: #f3a262;
+  margin: 0;
+}
+
+.cta-content {
+  z-index: 10;
+}
+
+.cta-text {
+  width: 435px;
+}
+
+.btn-store {
+  margin-top: 5%;
+}
+
+.btn-image-store {
+  width: 200px;
+  margin-right: 20px;
+}
+
+/*.section.cta {
+  background-color: #f3a262;
+  background-image: url("../images/dividerOrange.svg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -875,12 +918,11 @@ body {
 
 .section-cta-content-getItOn {
   margin-top: 40px;
-  /* margin-bottom: 40px; */
 }
 
 .cta-section-inner-gplay {
   margin-right: 20px;
-}
+}*/
 
 /* Artworks gallery */
 .section-content-gallery * {
@@ -900,7 +942,7 @@ body {
 
 .autresOeuvres-text-title {
   font-size: 20px;
-  color: #354C53;
+  color: #354c53;
   font-weight: 600;
 }
 
@@ -943,7 +985,8 @@ body {
   padding: 60px 0 80px 0;
 }
 
-.footer-column, .footer-autresOeuvres {
+.footer-column,
+.footer-autresOeuvres {
   margin-right: 20px;
   margin-bottom: 40px;
 }
@@ -1008,7 +1051,8 @@ body {
     width: 85%;
   }
 
-  .section-title {
+  .section-title,
+  .title-bg-orange {
     font-size: 2em;
   }
 
@@ -1036,13 +1080,21 @@ body {
 
   .img-view {
     max-width: 150%;
-    width: 120%;
-    left: -9%;
+    width: 130%;
+    left: -12%;
     position: relative;
   }
 
   .line {
     width: 85%;
+  }
+
+  .cta-text {
+    width: 85%;
+  }
+
+  .btn-image {
+    width: 50%;
   }
 }
 
