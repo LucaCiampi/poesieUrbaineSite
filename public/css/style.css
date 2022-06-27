@@ -716,6 +716,10 @@ body {
   font-family: "Brother 1816 Printed Bold", sans-serif;
 }
 
+.section-number:hover .text-number::before {
+  left: 10px;
+}
+
 .text-number {
   color: black;
   font-size: 20px;
@@ -732,6 +736,7 @@ body {
   position: absolute;
   left: -25px;
   top: 4.5px;
+  transition: 400ms;
 }
 
 /* Quoi */
