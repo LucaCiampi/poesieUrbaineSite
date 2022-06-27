@@ -939,10 +939,25 @@ body {
 }
 
 /* Autres oeuvres */
+.autresOeuvres-illustration {
+  position: relative;
+  height: 400px;
+  width: 600px;
+}
+
+.autresOeuvres-illustration-img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
 .autresOeuvres-text {
   position: relative;
   padding-bottom: 80px;
   margin-bottom: 20px;
+  transition: 600ms ease-in;
 }
 
 .autresOeuvres-text-title {
